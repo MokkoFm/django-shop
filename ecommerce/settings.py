@@ -16,7 +16,7 @@ SECRET_KEY = env("SECRET_KEY", "mokko2070")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool("DEBUG", False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://sergeielsakov2070.pythonanywhere.com/']
 
 CACHES = {
     'default': {
@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'store',
         'USER': 'root',
         'PASSWORD': 'sergeI0502!',
-        'HOST': 'localhost'
+        'HOST': '127.0.0.1'
     }
 }
 
