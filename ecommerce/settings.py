@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+from django.conf import settings
 from environs import Env
 env = Env()
 env.read_env()
@@ -77,10 +78,10 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'store',
-        'USER': 'root',
-        'PASSWORD': 'sergeI0502!',
-        'HOST': '127.0.0.1'
+        'NAME': 'sergeielsakov2070$store',
+        'USER': 'sergeielsakov2070',
+        'PASSWORD': 'dbpassword',
+        'HOST': 'sergeielsakov2070.mysql.pythonanywhere-services.com',
     }
 }
 
