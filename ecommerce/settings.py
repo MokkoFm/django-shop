@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sergeielsakov2070$store',
-        'USER': 'sergeielsakov2070',
-        'PASSWORD': 'dbpassword',
-        'HOST': 'sergeielsakov2070.mysql.pythonanywhere-services.com',
+        'NAME': 'SergeiElsakov207$default',
+        'USER': 'SergeiElsakov207',
+        'PASSWORD': 'sergeI0502!',
+        'HOST': 'SergeiElsakov2070.mysql.pythonanywhere-services.com',
     }
 }
 
